@@ -34,7 +34,6 @@
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Correo electrónico" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h5l-0A-L49">
                                 <rect key="frame" x="20" y="352" width="374" height="34"/>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="Domine-Medium" family="Domine" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                             </textField>
