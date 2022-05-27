@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Domine.ttf">
+            <string>Domine-Regular</string>
+        </array>
+        <array key="OpenSans-Medium.ttf">
+            <string>OpenSans-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CGeneralCVCell" id="gTV-IL-0wX" customClass="CGeneralCVCell" customModule="Meraki" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="170" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="170" height="300"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g6F-Mb-oGK" customClass="ShadowBoxView" customModule="Meraki" customModuleProvider="target">
+                        <rect key="frame" x="2" y="2" width="166" height="296"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="item1" translatesAutoresizingMaskIntoConstraints="NO" id="8jn-g3-2Ft">
+                                <rect key="frame" x="0.0" y="0.0" width="166" height="166"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Playeras raglan con diseño para parejas" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sEV-ml-eMD">
+                                <rect key="frame" x="8" y="174" width="150" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="D8B-bF-Rmt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Domine-Regular" family="Domine" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$ 440.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgC-29-ybw">
+                                <rect key="frame" x="8" y="242" width="150" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="osP-AI-eqy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="OpenSans-Medium" family="Open Sans" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stars" translatesAutoresizingMaskIntoConstraints="NO" id="ft6-c0-kod">
+                                <rect key="frame" x="98" y="268" width="60" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="X7k-N1-44p"/>
+                                    <constraint firstAttribute="height" constant="20" id="q1a-6G-p0H"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sEV-ml-eMD" firstAttribute="top" secondItem="8jn-g3-2Ft" secondAttribute="bottom" constant="8" id="0pV-GV-6xA"/>
+                            <constraint firstAttribute="trailing" secondItem="ft6-c0-kod" secondAttribute="trailing" constant="8" id="4aO-De-gc6"/>
+                            <constraint firstItem="RgC-29-ybw" firstAttribute="leading" secondItem="g6F-Mb-oGK" secondAttribute="leading" constant="8" id="5ul-3y-nkI"/>
+                            <constraint firstAttribute="bottom" secondItem="8jn-g3-2Ft" secondAttribute="bottom" constant="130" id="BA7-Ad-rqy"/>
+                            <constraint firstAttribute="trailing" secondItem="RgC-29-ybw" secondAttribute="trailing" constant="8" id="G4c-7Z-5aX"/>
+                            <constraint firstItem="RgC-29-ybw" firstAttribute="top" secondItem="sEV-ml-eMD" secondAttribute="bottom" constant="8" id="I2t-0B-OMu"/>
+                            <constraint firstItem="sEV-ml-eMD" firstAttribute="leading" secondItem="g6F-Mb-oGK" secondAttribute="leading" constant="8" id="LAr-mY-9bo"/>
+                            <constraint firstAttribute="trailing" secondItem="sEV-ml-eMD" secondAttribute="trailing" constant="8" id="eym-cc-1Bn"/>
+                            <constraint firstItem="8jn-g3-2Ft" firstAttribute="top" secondItem="g6F-Mb-oGK" secondAttribute="top" id="gtg-fu-SIz"/>
+                            <constraint firstAttribute="bottom" secondItem="ft6-c0-kod" secondAttribute="bottom" constant="8" id="hSy-hu-iP0"/>
+                            <constraint firstAttribute="trailing" secondItem="8jn-g3-2Ft" secondAttribute="trailing" id="kqQ-Qi-jPk"/>
+                            <constraint firstItem="8jn-g3-2Ft" firstAttribute="leading" secondItem="g6F-Mb-oGK" secondAttribute="leading" id="tyS-k5-TzR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="g6F-Mb-oGK" secondAttribute="trailing" constant="2" id="5OG-TI-bgS"/>
+                <constraint firstItem="g6F-Mb-oGK" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="2" id="Ibl-hD-Ftl"/>
+                <constraint firstItem="g6F-Mb-oGK" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="2" id="Q9g-nZ-EgQ"/>
+                <constraint firstAttribute="bottom" secondItem="g6F-Mb-oGK" secondAttribute="bottom" constant="2" id="V8F-7Q-dZd"/>
+            </constraints>
+            <size key="customSize" width="170" height="300"/>
+            <connections>
+                <outlet property="imgProd" destination="8jn-g3-2Ft" id="val-Lb-2rl"/>
+                <outlet property="nameProd" destination="sEV-ml-eMD" id="f3A-sc-07h"/>
+                <outlet property="precio" destination="RgC-29-ybw" id="sWE-on-4DM"/>
+                <outlet property="shadowBox" destination="g6F-Mb-oGK" id="zVG-Zq-wJ2"/>
+            </connections>
+            <point key="canvasLocation" x="-31.884057971014496" y="-6.0267857142857144"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Stars" width="512" height="512"/>
+        <image name="item1" width="616" height="768"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

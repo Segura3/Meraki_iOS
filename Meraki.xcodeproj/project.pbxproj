@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9102A9542835DCB900651A54 /* PedidosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9102A9532835DCB900651A54 /* PedidosVC.swift */; };
+		9102A9562835EB0700651A54 /* PedidosTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9102A9552835EB0700651A54 /* PedidosTVCell.swift */; };
+		9103D1C92828DC8A0053A837 /* TableFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9103D1C82828DC8A0053A837 /* TableFooter.swift */; };
+		9104EC7D283AFD5C00287FE3 /* DestacCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104EC7B283AFD5C00287FE3 /* DestacCVCell.swift */; };
+		9104EC7E283AFD5C00287FE3 /* DestacCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9104EC7C283AFD5C00287FE3 /* DestacCVCell.xib */; };
+		9104EC80283B184800287FE3 /* Box3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104EC7F283B184700287FE3 /* Box3View.swift */; };
+		9104EC82283B3BF700287FE3 /* CGeneralTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104EC81283B3BF700287FE3 /* CGeneralTVCell.swift */; };
+		9104EC85283B487E00287FE3 /* CGeneralCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104EC83283B487E00287FE3 /* CGeneralCVCell.swift */; };
+		9104EC86283B487E00287FE3 /* CGeneralCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9104EC84283B487E00287FE3 /* CGeneralCVCell.xib */; };
+		9104EC88283B588600287FE3 /* ShadowBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9104EC87283B588600287FE3 /* ShadowBoxView.swift */; };
+		91202A28281CD91300A25156 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91202A27281CD91300A25156 /* AppDelegate.swift */; };
+		91202A2A281CD91300A25156 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91202A29281CD91300A25156 /* SceneDelegate.swift */; };
+		91202A2C281CD91300A25156 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91202A2B281CD91300A25156 /* ViewController.swift */; };
+		91202A2F281CD91300A25156 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91202A2D281CD91300A25156 /* Main.storyboard */; };
+		91202A32281CD91300A25156 /* Meraki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91202A30281CD91300A25156 /* Meraki.xcdatamodeld */; };
+		91202A34281CD91700A25156 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91202A33281CD91700A25156 /* Assets.xcassets */; };
+		91202A37281CD91700A25156 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91202A35281CD91700A25156 /* LaunchScreen.storyboard */; };
+		9129E2AC2824B8260003D78A /* CarritoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129E2AB2824B8260003D78A /* CarritoVC.swift */; };
+		9129E2AE2824D9560003D78A /* BoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129E2AD2824D9560003D78A /* BoxView.swift */; };
+		912D19A0282C9972002D69FA /* CarritoTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D199F282C9972002D69FA /* CarritoTVCell.swift */; };
+		912D19A2282C99C8002D69FA /* OutlineBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D19A1282C99C8002D69FA /* OutlineBoxView.swift */; };
+		91484612282DD5030006CC7C /* OrdenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91484611282DD5030006CC7C /* OrdenVC.swift */; };
+		914D42CB2831F2D0008861B7 /* FinalizarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D42CA2831F2D0008861B7 /* FinalizarVC.swift */; };
+		914D42CD28321E8F008861B7 /* TableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D42CC28321E8F008861B7 /* TableHeader.swift */; };
+		914EB9A02834D29000B5E18E /* FinalizarTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914EB99F2834D29000B5E18E /* FinalizarTVCell.swift */; };
+		915B4E30282599AE00250ACC /* Box2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915B4E2F282599AE00250ACC /* Box2View.swift */; };
+		915B4E322825AB1C00250ACC /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915B4E312825AB1C00250ACC /* DataModel.swift */; };
+		9190BA5F2822210000A7A4EB /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9190BA5E2822210000A7A4EB /* TabBarVC.swift */; };
+		91B88221283CABFE0023314E /* DetalleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B88220283CABFE0023314E /* DetalleVC.swift */; };
+		91C24DBF2839CFD9009696A2 /* DestacadosTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C24DBE2839CFD9009696A2 /* DestacadosTVCell.swift */; };
+		91DB6E03283FFA2C00400BBC /* Domine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E02283FFA2C00400BBC /* Domine.ttf */; };
+		91DB6E08283FFB5F00400BBC /* Domine-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E04283FFB5F00400BBC /* Domine-Regular.ttf */; };
+		91DB6E09283FFB5F00400BBC /* Domine-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E05283FFB5F00400BBC /* Domine-Bold.ttf */; };
+		91DB6E0A283FFB5F00400BBC /* Domine-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E06283FFB5F00400BBC /* Domine-Medium.ttf */; };
+		91DB6E0B283FFB5F00400BBC /* Domine-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E07283FFB5F00400BBC /* Domine-SemiBold.ttf */; };
+		91DB6E0F2840089C00400BBC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DB6E0E2840089C00400BBC /* LoginVC.swift */; };
+		91DB6E1D2840692900400BBC /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E192840692900400BBC /* OpenSans-SemiBold.ttf */; };
+		91DB6E1E2840692900400BBC /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E1A2840692900400BBC /* OpenSans-Medium.ttf */; };
+		91DB6E1F2840692900400BBC /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E1B2840692900400BBC /* OpenSans-Regular.ttf */; };
+		91DB6E202840692900400BBC /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91DB6E1C2840692900400BBC /* OpenSans-Bold.ttf */; };
+		91FCC340282348D700987804 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCC33F282348D700987804 /* HeaderView.swift */; };
+		91FCC342282384F000987804 /* InicioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FCC341282384F000987804 /* InicioVC.swift */; };
+		91FE13B028388C9700DF790D /* CatalogoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE13AF28388C9700DF790D /* CatalogoVC.swift */; };
+		91FEB90828370C14000B347B /* OutlineSQBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FEB90728370C14000B347B /* OutlineSQBoxView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9102A9532835DCB900651A54 /* PedidosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosVC.swift; sourceTree = "<group>"; };
+		9102A9552835EB0700651A54 /* PedidosTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedidosTVCell.swift; sourceTree = "<group>"; };
+		9103D1C82828DC8A0053A837 /* TableFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableFooter.swift; sourceTree = "<group>"; };
+		9104EC7B283AFD5C00287FE3 /* DestacCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestacCVCell.swift; sourceTree = "<group>"; };
+		9104EC7C283AFD5C00287FE3 /* DestacCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestacCVCell.xib; sourceTree = "<group>"; };
+		9104EC7F283B184700287FE3 /* Box3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box3View.swift; sourceTree = "<group>"; };
+		9104EC81283B3BF700287FE3 /* CGeneralTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGeneralTVCell.swift; sourceTree = "<group>"; };
+		9104EC83283B487E00287FE3 /* CGeneralCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGeneralCVCell.swift; sourceTree = "<group>"; };
+		9104EC84283B487E00287FE3 /* CGeneralCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CGeneralCVCell.xib; sourceTree = "<group>"; };
+		9104EC87283B588600287FE3 /* ShadowBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowBoxView.swift; sourceTree = "<group>"; };
+		91202A24281CD91300A25156 /* Meraki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meraki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91202A27281CD91300A25156 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		91202A29281CD91300A25156 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		91202A2B281CD91300A25156 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		91202A2E281CD91300A25156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91202A31281CD91300A25156 /* Meraki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Meraki.xcdatamodel; sourceTree = "<group>"; };
+		91202A33281CD91700A25156 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91202A36281CD91700A25156 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91202A38281CD91700A25156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9129E2AB2824B8260003D78A /* CarritoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoVC.swift; sourceTree = "<group>"; };
+		9129E2AD2824D9560003D78A /* BoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxView.swift; sourceTree = "<group>"; };
+		912D199F282C9972002D69FA /* CarritoTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoTVCell.swift; sourceTree = "<group>"; };
+		912D19A1282C99C8002D69FA /* OutlineBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineBoxView.swift; sourceTree = "<group>"; };
+		91484611282DD5030006CC7C /* OrdenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdenVC.swift; sourceTree = "<group>"; };
+		914D42CA2831F2D0008861B7 /* FinalizarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalizarVC.swift; sourceTree = "<group>"; };
+		914D42CC28321E8F008861B7 /* TableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeader.swift; sourceTree = "<group>"; };
+		914EB99F2834D29000B5E18E /* FinalizarTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalizarTVCell.swift; sourceTree = "<group>"; };
+		915B4E2F282599AE00250ACC /* Box2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box2View.swift; sourceTree = "<group>"; };
+		915B4E312825AB1C00250ACC /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		9190BA5E2822210000A7A4EB /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		91B88220283CABFE0023314E /* DetalleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleVC.swift; sourceTree = "<group>"; };
+		91C24DBE2839CFD9009696A2 /* DestacadosTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestacadosTVCell.swift; sourceTree = "<group>"; };
+		91DB6E02283FFA2C00400BBC /* Domine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Domine.ttf; sourceTree = "<group>"; };
+		91DB6E04283FFB5F00400BBC /* Domine-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Domine-Regular.ttf"; sourceTree = "<group>"; };
+		91DB6E05283FFB5F00400BBC /* Domine-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Domine-Bold.ttf"; sourceTree = "<group>"; };
+		91DB6E06283FFB5F00400BBC /* Domine-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Domine-Medium.ttf"; sourceTree = "<group>"; };
+		91DB6E07283FFB5F00400BBC /* Domine-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Domine-SemiBold.ttf"; sourceTree = "<group>"; };
+		91DB6E0E2840089C00400BBC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		91DB6E192840692900400BBC /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		91DB6E1A2840692900400BBC /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		91DB6E1B2840692900400BBC /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		91DB6E1C2840692900400BBC /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		91FCC33F282348D700987804 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		91FCC341282384F000987804 /* InicioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioVC.swift; sourceTree = "<group>"; };
+		91FE13AF28388C9700DF790D /* CatalogoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogoVC.swift; sourceTree = "<group>"; };
+		91FEB90728370C14000B347B /* OutlineSQBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineSQBoxView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91202A21281CD91300A25156 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9104EC7A283AFD0600287FE3 /* Catalogo */ = {
+			isa = PBXGroup;
+			children = (
+				91FE13AF28388C9700DF790D /* CatalogoVC.swift */,
+				9104EC81283B3BF700287FE3 /* CGeneralTVCell.swift */,
+				9104EC83283B487E00287FE3 /* CGeneralCVCell.swift */,
+				9104EC84283B487E00287FE3 /* CGeneralCVCell.xib */,
+				91C24DBE2839CFD9009696A2 /* DestacadosTVCell.swift */,
+				9104EC7B283AFD5C00287FE3 /* DestacCVCell.swift */,
+				9104EC7C283AFD5C00287FE3 /* DestacCVCell.xib */,
+			);
+			path = Catalogo;
+			sourceTree = "<group>";
+		};
+		91202A1B281CD91300A25156 = {
+			isa = PBXGroup;
+			children = (
+				91202A26281CD91300A25156 /* Meraki */,
+				91202A25281CD91300A25156 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91202A25281CD91300A25156 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91202A24281CD91300A25156 /* Meraki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91202A26281CD91300A25156 /* Meraki */ = {
+			isa = PBXGroup;
+			children = (
+				91202A27281CD91300A25156 /* AppDelegate.swift */,
+				91202A29281CD91300A25156 /* SceneDelegate.swift */,
+				91202A2B281CD91300A25156 /* ViewController.swift */,
+				91DB6E10284008A700400BBC /* Login */,
+				91B8821F283CAB310023314E /* Inicio */,
+				91B8821B283C82090023314E /* Carrito */,
+				91B8821E283CAB250023314E /* Orden */,
+				91B8821C283C82250023314E /* Finalizar */,
+				91B8821D283C82340023314E /* Pedidos */,
+				9104EC7A283AFD0600287FE3 /* Catalogo */,
+				91B88222283CAC550023314E /* Detalle */,
+				9190BA5E2822210000A7A4EB /* TabBarVC.swift */,
+				91FCC33F282348D700987804 /* HeaderView.swift */,
+				9129E2AD2824D9560003D78A /* BoxView.swift */,
+				915B4E2F282599AE00250ACC /* Box2View.swift */,
+				9104EC7F283B184700287FE3 /* Box3View.swift */,
+				9104EC87283B588600287FE3 /* ShadowBoxView.swift */,
+				912D19A1282C99C8002D69FA /* OutlineBoxView.swift */,
+				91FEB90728370C14000B347B /* OutlineSQBoxView.swift */,
+				91202A2D281CD91300A25156 /* Main.storyboard */,
+				91202A33281CD91700A25156 /* Assets.xcassets */,
+				91202A35281CD91700A25156 /* LaunchScreen.storyboard */,
+				91202A38281CD91700A25156 /* Info.plist */,
+				91202A30281CD91300A25156 /* Meraki.xcdatamodeld */,
+				915B4E312825AB1C00250ACC /* DataModel.swift */,
+				91DB6DFD283FF69D00400BBC /* Fonts */,
+			);
+			path = Meraki;
+			sourceTree = "<group>";
+		};
+		91B8821B283C82090023314E /* Carrito */ = {
+			isa = PBXGroup;
+			children = (
+				9129E2AB2824B8260003D78A /* CarritoVC.swift */,
+				912D199F282C9972002D69FA /* CarritoTVCell.swift */,
+			);
+			path = Carrito;
+			sourceTree = "<group>";
+		};
+		91B8821C283C82250023314E /* Finalizar */ = {
+			isa = PBXGroup;
+			children = (
+				914D42CA2831F2D0008861B7 /* FinalizarVC.swift */,
+				914EB99F2834D29000B5E18E /* FinalizarTVCell.swift */,
+				914D42CC28321E8F008861B7 /* TableHeader.swift */,
+				9103D1C82828DC8A0053A837 /* TableFooter.swift */,
+			);
+			path = Finalizar;
+			sourceTree = "<group>";
+		};
+		91B8821D283C82340023314E /* Pedidos */ = {
+			isa = PBXGroup;
+			children = (
+				9102A9532835DCB900651A54 /* PedidosVC.swift */,
+				9102A9552835EB0700651A54 /* PedidosTVCell.swift */,
+			);
+			path = Pedidos;
+			sourceTree = "<group>";
+		};
+		91B8821E283CAB250023314E /* Orden */ = {
+			isa = PBXGroup;
+			children = (
+				91484611282DD5030006CC7C /* OrdenVC.swift */,
+			);
+			path = Orden;
+			sourceTree = "<group>";
+		};
+		91B8821F283CAB310023314E /* Inicio */ = {
+			isa = PBXGroup;
+			children = (
+				91FCC341282384F000987804 /* InicioVC.swift */,
+			);
+			path = Inicio;
+			sourceTree = "<group>";
+		};
+		91B88222283CAC550023314E /* Detalle */ = {
+			isa = PBXGroup;
+			children = (
+				91B88220283CABFE0023314E /* DetalleVC.swift */,
+			);
+			path = Detalle;
+			sourceTree = "<group>";
+		};
+		91DB6DFD283FF69D00400BBC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				91DB6E1C2840692900400BBC /* OpenSans-Bold.ttf */,
+				91DB6E1A2840692900400BBC /* OpenSans-Medium.ttf */,
+				91DB6E1B2840692900400BBC /* OpenSans-Regular.ttf */,
+				91DB6E192840692900400BBC /* OpenSans-SemiBold.ttf */,
+				91DB6E05283FFB5F00400BBC /* Domine-Bold.ttf */,
+				91DB6E06283FFB5F00400BBC /* Domine-Medium.ttf */,
+				91DB6E04283FFB5F00400BBC /* Domine-Regular.ttf */,
+				91DB6E07283FFB5F00400BBC /* Domine-SemiBold.ttf */,
+				91DB6E02283FFA2C00400BBC /* Domine.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		91DB6E10284008A700400BBC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				91DB6E0E2840089C00400BBC /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91202A23281CD91300A25156 /* Meraki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91202A3B281CD91700A25156 /* Build configuration list for PBXNativeTarget "Meraki" */;
+			buildPhases = (
+				91202A20281CD91300A25156 /* Sources */,
+				91202A21281CD91300A25156 /* Frameworks */,
+				91202A22281CD91300A25156 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meraki;
+			productName = Meraki;
+			productReference = 91202A24281CD91300A25156 /* Meraki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91202A1C281CD91300A25156 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					91202A23281CD91300A25156 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 91202A1F281CD91300A25156 /* Build configuration list for PBXProject "Meraki" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91202A1B281CD91300A25156;
+			productRefGroup = 91202A25281CD91300A25156 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91202A23281CD91300A25156 /* Meraki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91202A22281CD91300A25156 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91DB6E1E2840692900400BBC /* OpenSans-Medium.ttf in Resources */,
+				91202A37281CD91700A25156 /* LaunchScreen.storyboard in Resources */,
+				91DB6E0B283FFB5F00400BBC /* Domine-SemiBold.ttf in Resources */,
+				91DB6E1D2840692900400BBC /* OpenSans-SemiBold.ttf in Resources */,
+				91DB6E08283FFB5F00400BBC /* Domine-Regular.ttf in Resources */,
+				9104EC86283B487E00287FE3 /* CGeneralCVCell.xib in Resources */,
+				91DB6E09283FFB5F00400BBC /* Domine-Bold.ttf in Resources */,
+				91202A34281CD91700A25156 /* Assets.xcassets in Resources */,
+				91DB6E202840692900400BBC /* OpenSans-Bold.ttf in Resources */,
+				9104EC7E283AFD5C00287FE3 /* DestacCVCell.xib in Resources */,
+				91202A2F281CD91300A25156 /* Main.storyboard in Resources */,
+				91DB6E03283FFA2C00400BBC /* Domine.ttf in Resources */,
+				91DB6E1F2840692900400BBC /* OpenSans-Regular.ttf in Resources */,
+				91DB6E0A283FFB5F00400BBC /* Domine-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91202A20281CD91300A25156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91202A32281CD91300A25156 /* Meraki.xcdatamodeld in Sources */,
+				91FCC340282348D700987804 /* HeaderView.swift in Sources */,
+				91484612282DD5030006CC7C /* OrdenVC.swift in Sources */,
+				912D19A0282C9972002D69FA /* CarritoTVCell.swift in Sources */,
+				915B4E322825AB1C00250ACC /* DataModel.swift in Sources */,
+				914D42CB2831F2D0008861B7 /* FinalizarVC.swift in Sources */,
+				9102A9542835DCB900651A54 /* PedidosVC.swift in Sources */,
+				9103D1C92828DC8A0053A837 /* TableFooter.swift in Sources */,
+				91202A2C281CD91300A25156 /* ViewController.swift in Sources */,
+				9190BA5F2822210000A7A4EB /* TabBarVC.swift in Sources */,
+				91B88221283CABFE0023314E /* DetalleVC.swift in Sources */,
+				914D42CD28321E8F008861B7 /* TableHeader.swift in Sources */,
+				91202A28281CD91300A25156 /* AppDelegate.swift in Sources */,
+				9104EC82283B3BF700287FE3 /* CGeneralTVCell.swift in Sources */,
+				91DB6E0F2840089C00400BBC /* LoginVC.swift in Sources */,
+				91FCC342282384F000987804 /* InicioVC.swift in Sources */,
+				914EB9A02834D29000B5E18E /* FinalizarTVCell.swift in Sources */,
+				91202A2A281CD91300A25156 /* SceneDelegate.swift in Sources */,
+				9104EC88283B588600287FE3 /* ShadowBoxView.swift in Sources */,
+				915B4E30282599AE00250ACC /* Box2View.swift in Sources */,
+				9104EC85283B487E00287FE3 /* CGeneralCVCell.swift in Sources */,
+				9104EC80283B184800287FE3 /* Box3View.swift in Sources */,
+				9102A9562835EB0700651A54 /* PedidosTVCell.swift in Sources */,
+				91C24DBF2839CFD9009696A2 /* DestacadosTVCell.swift in Sources */,
+				9129E2AC2824B8260003D78A /* CarritoVC.swift in Sources */,
+				91FE13B028388C9700DF790D /* CatalogoVC.swift in Sources */,
+				9129E2AE2824D9560003D78A /* BoxView.swift in Sources */,
+				91FEB90828370C14000B347B /* OutlineSQBoxView.swift in Sources */,
+				912D19A2282C99C8002D69FA /* OutlineBoxView.swift in Sources */,
+				9104EC7D283AFD5C00287FE3 /* DestacCVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		91202A2D281CD91300A25156 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91202A2E281CD91300A25156 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91202A35281CD91700A25156 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91202A36281CD91700A25156 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91202A39281CD91700A25156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91202A3A281CD91700A25156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91202A3C281CD91700A25156 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QNU4NMFJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meraki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seguras.Meraki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		91202A3D281CD91700A25156 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2QNU4NMFJ3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Meraki/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seguras.Meraki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91202A1F281CD91300A25156 /* Build configuration list for PBXProject "Meraki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91202A39281CD91700A25156 /* Debug */,
+				91202A3A281CD91700A25156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91202A3B281CD91700A25156 /* Build configuration list for PBXNativeTarget "Meraki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91202A3C281CD91700A25156 /* Debug */,
+				91202A3D281CD91700A25156 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91202A30281CD91300A25156 /* Meraki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91202A31281CD91300A25156 /* Meraki.xcdatamodel */,
+			);
+			currentVersion = 91202A31281CD91300A25156 /* Meraki.xcdatamodel */;
+			path = Meraki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91202A1C281CD91300A25156 /* Project object */;
+}
